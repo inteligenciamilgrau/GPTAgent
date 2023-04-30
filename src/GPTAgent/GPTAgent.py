@@ -88,3 +88,6 @@ class GPTAgent:
             del mensagens[1]  # apaga um user
             del mensagens[1]  # apaga um assistant
         return mensagens
+
+    def novo_estilo(self, novo_estilo):
+        self.messages[0] = {"role": "system", "content": novo_estilo}
