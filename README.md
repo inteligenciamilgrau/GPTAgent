@@ -16,9 +16,9 @@ Gerar uma Key no site da OpenAI para desenvolvedores e colocar no arquivo **chat
 Exemplo:
 
 ```
-from GPTAgent_img import GPTAgent
+from GPTAgent.GPTAgent import GPTAgent
 
-agente = GPTAgent.GPTAgent(name="Bob", estilo="Você é engraçado e positivo.")
+agente = GPTAgent(name="Bob", estilo="Você é engraçado e positivo.")
 
 print(agente.perguntar("Bom dia!"))
 ```
