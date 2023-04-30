@@ -2,3 +2,4 @@ dist/
 tests/
 __init__.py
 pyproject.toml
+comandos.txt
